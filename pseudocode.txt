@@ -1,0 +1,35 @@
+# Nearest Neighbor
+Define function nearest_neighbor with parameters (dataset, test_instance)
+    For each item in dataset:
+        Compute distance between current item and test_instance (exclude class labels when calculating distance)
+    EndFor
+    Return class label of the item with smallest distance
+EndFunction
+
+# Forward Selection
+Define function forward_selection with parameter (dataset)
+    Let selected_features be an empty list
+    While there is an improvement in accuracy:
+        For each feature not in selected_features:
+            Temporarily add feature to selected_features
+            Evaluate accuracy of nearest_neighbor using selected_features
+            If accuracy improves:
+                Permanently add feature to selected_features
+        EndFor
+    EndWhile
+    Return selected_features
+EndFunction
+
+# Backward Elimination
+Define function backward_elimination with parameter (dataset)
+    Let selected_features be a list containing all features
+    While there is an improvement in accuracy:
+        For each feature in selected_features:
+            Temporarily remove feature from selected_features
+            Evaluate accuracy of nearest_neighbor using selected_features
+            If accuracy improves:
+                Permanently remove feature from selected_features
+        EndFor
+    EndWhile
+    Return selected_features
+EndFunction
