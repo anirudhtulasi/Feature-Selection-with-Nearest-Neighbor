@@ -57,6 +57,7 @@ def forward_selection(data):
             print("\n(Warning, Accuracy has decreased! Continuing search in case of local maxima)\n")
 
     print(f"Finished search!! The best feature subset is {best_features_so_far}, which has an accuracy of {best_accuracy_so_far*100:.1f}%")
+    return best_features_so_far, best_accuracy_so_far
 
 def main():
     print("Welcome to Bertie Woosters Feature Selection Algorithm.")
@@ -65,8 +66,11 @@ def main():
     start_time = time.time()
     print(f"This dataset has {data.shape[1] - 1} features (not including the class attribute), with {data.shape[0]} instances.")
     print("Starting Forward Selection...")
-    best_features = forward_selection(data)
+    #best_features = forward_selection(data)
+    best_features, best_accuracy = forward_selection(data)
     #print(f"Finished search!! The best feature subset is {best_features}, which has an accuracy of {leave_one_out_cross_validation(data, best_features):.3f}")
+    error_rate = 1 - best_accuracy
+    print(f"\nOn '{file}', the error rate is {error_rate:.3f} when using only features {best_features}")
     end_time = time.time()
     elapsed_time = end_time - start_time
     print(f"\nElapsed time: {elapsed_time} seconds")
