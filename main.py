@@ -2,26 +2,23 @@ import pandas as pd
 import numpy as np
 from sklearn.model_selection import LeaveOneOut
 from sklearn.metrics import accuracy_score
+from sklearn.neighbors import NearestNeighbors
 
 def load_data(file):
     return pd.read_csv(file, sep='\s+', header=None)
 
-def euclidean_distance(a, b):
-    return np.sqrt(np.sum((a - b) ** 2))
-
-def nearest_neighbor(train, test_instance):
-    distances = train.apply(lambda x: euclidean_distance(x[1:], test_instance[1:]), axis=1)
-    return train.loc[distances.idxmin()][0]
-
 def leave_one_out_cross_validation(data, target):
     loo = LeaveOneOut()
-    predictions = []
+    y_true = []
+    y_pred = []
     for train_index, test_index in loo.split(data):
         train = data.iloc[train_index]
         test = data.iloc[test_index]
-        prediction = nearest_neighbor(train, test.iloc[0])
-        predictions.append(prediction)
-    return accuracy_score(data[target], predictions)
+        nbrs = NearestNeighbors(n_neighbors=1, algorithm='ball_tree').fit(train.drop(target, axis=1))
+        distances, indices = nbrs.kneighbors(test.drop(target, axis=1))
+        y_true.append(test[target].values[0])
+        y_pred.append(train.iloc[indices[0]][target].values[0])
+    return accuracy_score(y_true, y_pred)
 
 def forward_selection(data, target):
     features = list(data.columns)
@@ -31,7 +28,7 @@ def forward_selection(data, target):
     print("Beginning search.")
     while len(features) > 0:
         best_accuracy = 0
-        best_feature = None  #best_feature
+        best_feature = None
         for feature in features:
             temp_features = selected_features + [feature]
             accuracy = leave_one_out_cross_validation(data[temp_features + [target]], target)
@@ -39,12 +36,12 @@ def forward_selection(data, target):
             if accuracy > best_accuracy:
                 best_accuracy = accuracy
                 best_feature = feature
-        if best_feature:  #append and remove if best_feature is not None
+        if best_feature:
             selected_features.append(best_feature)
             features.remove(best_feature)
             print(f"Feature set {selected_features} was best, accuracy is {best_accuracy*100:.1f}%")
         else:
-            break  #if no imprv in accuracy - break
+            break
     return selected_features
 
 def main():
