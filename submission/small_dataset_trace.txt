@@ -88,7 +88,7 @@ Progress: 10/10 features selected.
 The best feature subset is [8, 4], which has an accuracy of 96.2%
 The best three-feature subset is [8, 4, 3], which has an accuracy of 94.9%
 
-Elapsed time: 0.18647193908691406 seconds
+Elapsed time: 0.186 seconds
 anirudhtulasi@Anirudhs-Air AI Final script copy % python3 main.py
 Welcome to Bertie Woosters Feature Selection Algorithm.
 Please select one : 1 - Synthetic Dataset, 2 - Real-World Dataset
@@ -186,4 +186,4 @@ Progress: feature size is : 0
 The best feature subset is [4, 8], which has an accuracy of 96.2%
 The best three-feature subset is [3, 4, 8], which has an accuracy of 94.9%
 
-Elapsed time: 0.22495603561401367 seconds
+Elapsed time: 0.224 seconds
