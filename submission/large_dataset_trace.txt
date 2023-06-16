@@ -1,0 +1,547 @@
+anirudhtulasi@Anirudhs-Air AI Final script copy % python3 main.py
+Welcome to Bertie Woosters Feature Selection Algorithm.
+Please select one : 1 - Synthetic Dataset, 2 - Real-World Dataset
+1
+Type in the name of the file to test: /Users/anirudhtulasi/Desktop/AIP2/data_sets/CS170_large_Data__2.txt
+This dataset has 20 features (not including the class attribute), with 2000 instances.
+Please select the search algorithm: 1 - Forward Selection, 2 - Backward Elimination, 3 - Optimized Forward Selection, 4 - Optimized Backward Elimination
+3
+Starting Optimized Forward Selection...
+Running nearest neighbor with all 20 features, using "leaving-one-out" evaluation, I get accuracy of 19.6%
+
+Using feature(s) [1] accuracy is 67.8%
+Using feature(s) [2] accuracy is 68.8%
+Using feature(s) [3] accuracy is 68.6%
+Using feature(s) [4] accuracy is 67.5%
+Using feature(s) [5] accuracy is 69.0%
+Using feature(s) [6] accuracy is 69.8%
+Using feature(s) [7] accuracy is 68.0%
+Using feature(s) [8] accuracy is 67.8%
+Using feature(s) [9] accuracy is 70.8%
+Using feature(s) [10] accuracy is 69.0%
+Using feature(s) [11] accuracy is 69.0%
+Using feature(s) [12] accuracy is 67.5%
+Using feature(s) [13] accuracy is 66.8%
+Using feature(s) [14] accuracy is 69.9%
+Using feature(s) [15] accuracy is 84.6%
+Using feature(s) [16] accuracy is 68.1%
+Using feature(s) [17] accuracy is 67.9%
+Using feature(s) [18] accuracy is 67.5%
+Using feature(s) [19] accuracy is 68.5%
+Using feature(s) [20] accuracy is 68.7%
+Progress: 1/20 features selected.
+
+Feature set [15] was best, accuracy is 84.6%
+Using feature(s) [15, 1] accuracy is 83.9%
+Using feature(s) [15, 2] accuracy is 83.8%
+Using feature(s) [15, 3] accuracy is 82.0%
+Using feature(s) [15, 4] accuracy is 84.0%
+Using feature(s) [15, 5] accuracy is 82.4%
+Using feature(s) [15, 6] accuracy is 83.2%
+Using feature(s) [15, 7] accuracy is 83.9%
+Using feature(s) [15, 8] accuracy is 86.3%
+Using feature(s) [15, 9] accuracy is 96.5%
+Using feature(s) [15, 10] accuracy is 84.5%
+Using feature(s) [15, 11] accuracy is 83.7%
+Using feature(s) [15, 12] accuracy is 82.5%
+Using feature(s) [15, 13] accuracy is 82.9%
+Using feature(s) [15, 14] accuracy is 84.5%
+Using feature(s) [15, 16] accuracy is 83.4%
+Using feature(s) [15, 17] accuracy is 83.9%
+Using feature(s) [15, 18] accuracy is 84.0%
+Using feature(s) [15, 19] accuracy is 83.4%
+Using feature(s) [15, 20] accuracy is 84.0%
+Progress: 2/20 features selected.
+
+Feature set [15, 9] was best, accuracy is 96.5%
+Using feature(s) [15, 9, 1] accuracy is 93.8%
+Using feature(s) [15, 9, 2] accuracy is 94.3%
+Using feature(s) [15, 9, 3] accuracy is 94.0%
+Using feature(s) [15, 9, 4] accuracy is 92.8%
+Using feature(s) [15, 9, 5] accuracy is 93.8%
+Using feature(s) [15, 9, 6] accuracy is 93.8%
+Using feature(s) [15, 9, 7] accuracy is 93.6%
+Using feature(s) [15, 9, 8] accuracy is 94.5%
+Using feature(s) [15, 9, 10] accuracy is 93.5%
+Using feature(s) [15, 9, 11] accuracy is 94.1%
+Using feature(s) [15, 9, 12] accuracy is 94.7%
+Using feature(s) [15, 9, 13] accuracy is 93.5%
+Using feature(s) [15, 9, 14] accuracy is 94.4%
+Using feature(s) [15, 9, 16] accuracy is 93.7%
+Using feature(s) [15, 9, 17] accuracy is 94.1%
+Using feature(s) [15, 9, 18] accuracy is 94.5%
+Using feature(s) [15, 9, 19] accuracy is 94.2%
+Using feature(s) [15, 9, 20] accuracy is 94.2%
+Progress: 3/20 features selected.
+
+Using feature(s) [15, 9, 12, 1] accuracy is 91.5%
+Using feature(s) [15, 9, 12, 2] accuracy is 92.0%
+Using feature(s) [15, 9, 12, 3] accuracy is 90.1%
+Using feature(s) [15, 9, 12, 4] accuracy is 91.5%
+Using feature(s) [15, 9, 12, 5] accuracy is 91.2%
+Using feature(s) [15, 9, 12, 6] accuracy is 89.5%
+Using feature(s) [15, 9, 12, 7] accuracy is 89.2%
+Using feature(s) [15, 9, 12, 8] accuracy is 91.0%
+Using feature(s) [15, 9, 12, 10] accuracy is 89.8%
+Using feature(s) [15, 9, 12, 11] accuracy is 91.2%
+Using feature(s) [15, 9, 12, 13] accuracy is 90.2%
+Using feature(s) [15, 9, 12, 14] accuracy is 90.9%
+Using feature(s) [15, 9, 12, 16] accuracy is 91.1%
+Using feature(s) [15, 9, 12, 17] accuracy is 90.8%
+Using feature(s) [15, 9, 12, 18] accuracy is 91.1%
+Using feature(s) [15, 9, 12, 19] accuracy is 91.0%
+Using feature(s) [15, 9, 12, 20] accuracy is 91.0%
+Progress: 4/20 features selected.
+
+Using feature(s) [15, 9, 12, 2, 1] accuracy is 88.4%
+Using feature(s) [15, 9, 12, 2, 3] accuracy is 87.9%
+Using feature(s) [15, 9, 12, 2, 4] accuracy is 87.8%
+Using feature(s) [15, 9, 12, 2, 5] accuracy is 89.1%
+Using feature(s) [15, 9, 12, 2, 6] accuracy is 87.3%
+Using feature(s) [15, 9, 12, 2, 7] accuracy is 87.0%
+Using feature(s) [15, 9, 12, 2, 8] accuracy is 88.3%
+Using feature(s) [15, 9, 12, 2, 10] accuracy is 87.1%
+Using feature(s) [15, 9, 12, 2, 11] accuracy is 87.5%
+Using feature(s) [15, 9, 12, 2, 13] accuracy is 87.8%
+Using feature(s) [15, 9, 12, 2, 14] accuracy is 87.6%
+Using feature(s) [15, 9, 12, 2, 16] accuracy is 87.6%
+Using feature(s) [15, 9, 12, 2, 17] accuracy is 87.4%
+Using feature(s) [15, 9, 12, 2, 18] accuracy is 87.2%
+Using feature(s) [15, 9, 12, 2, 19] accuracy is 88.2%
+Using feature(s) [15, 9, 12, 2, 20] accuracy is 88.3%
+Progress: 5/20 features selected.
+
+Using feature(s) [15, 9, 12, 2, 5, 1] accuracy is 84.0%
+Using feature(s) [15, 9, 12, 2, 5, 3] accuracy is 85.1%
+Using feature(s) [15, 9, 12, 2, 5, 4] accuracy is 86.8%
+Using feature(s) [15, 9, 12, 2, 5, 6] accuracy is 83.5%
+Using feature(s) [15, 9, 12, 2, 5, 7] accuracy is 84.9%
+Using feature(s) [15, 9, 12, 2, 5, 8] accuracy is 86.3%
+Using feature(s) [15, 9, 12, 2, 5, 10] accuracy is 83.8%
+Using feature(s) [15, 9, 12, 2, 5, 11] accuracy is 86.2%
+Using feature(s) [15, 9, 12, 2, 5, 13] accuracy is 84.0%
+Using feature(s) [15, 9, 12, 2, 5, 14] accuracy is 85.2%
+Using feature(s) [15, 9, 12, 2, 5, 16] accuracy is 84.5%
+Using feature(s) [15, 9, 12, 2, 5, 17] accuracy is 85.5%
+Using feature(s) [15, 9, 12, 2, 5, 18] accuracy is 84.7%
+Using feature(s) [15, 9, 12, 2, 5, 19] accuracy is 85.2%
+Using feature(s) [15, 9, 12, 2, 5, 20] accuracy is 85.0%
+Progress: 6/20 features selected.
+
+Using feature(s) [15, 9, 12, 2, 5, 4, 1] accuracy is 83.8%
+Using feature(s) [15, 9, 12, 2, 5, 4, 3] accuracy is 82.7%
+Using feature(s) [15, 9, 12, 2, 5, 4, 6] accuracy is 82.5%
+Using feature(s) [15, 9, 12, 2, 5, 4, 7] accuracy is 82.4%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8] accuracy is 84.4%
+Using feature(s) [15, 9, 12, 2, 5, 4, 10] accuracy is 82.3%
+Using feature(s) [15, 9, 12, 2, 5, 4, 11] accuracy is 83.7%
+Using feature(s) [15, 9, 12, 2, 5, 4, 13] accuracy is 82.1%
+Using feature(s) [15, 9, 12, 2, 5, 4, 14] accuracy is 83.0%
+Using feature(s) [15, 9, 12, 2, 5, 4, 16] accuracy is 82.7%
+Using feature(s) [15, 9, 12, 2, 5, 4, 17] accuracy is 82.6%
+Using feature(s) [15, 9, 12, 2, 5, 4, 18] accuracy is 83.0%
+Using feature(s) [15, 9, 12, 2, 5, 4, 19] accuracy is 83.2%
+Using feature(s) [15, 9, 12, 2, 5, 4, 20] accuracy is 82.1%
+Progress: 7/20 features selected.
+
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 1] accuracy is 81.8%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 3] accuracy is 81.2%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 6] accuracy is 80.7%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 7] accuracy is 81.0%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 10] accuracy is 81.5%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 11] accuracy is 81.8%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 13] accuracy is 81.5%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 14] accuracy is 81.5%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 16] accuracy is 81.0%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 17] accuracy is 80.7%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 18] accuracy is 80.8%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19] accuracy is 82.4%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 20] accuracy is 81.2%
+Progress: 8/20 features selected.
+
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 1] accuracy is 79.0%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 3] accuracy is 78.5%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6] accuracy is 81.2%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 7] accuracy is 79.7%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 10] accuracy is 79.1%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 11] accuracy is 79.8%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 13] accuracy is 79.6%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 14] accuracy is 80.4%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 16] accuracy is 79.6%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 17] accuracy is 79.7%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 18] accuracy is 79.5%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 20] accuracy is 79.3%
+Progress: 9/20 features selected.
+
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 1] accuracy is 77.5%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 3] accuracy is 77.5%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 7] accuracy is 78.2%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 10] accuracy is 77.6%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 11] accuracy is 78.5%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 13] accuracy is 78.8%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14] accuracy is 79.5%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 16] accuracy is 77.0%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 17] accuracy is 79.0%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 18] accuracy is 77.4%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 20] accuracy is 78.6%
+Progress: 10/20 features selected.
+
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 1] accuracy is 75.6%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 3] accuracy is 76.3%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 7] accuracy is 76.5%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 10] accuracy is 76.0%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11] accuracy is 77.7%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 13] accuracy is 75.4%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 16] accuracy is 75.7%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 17] accuracy is 76.1%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 18] accuracy is 75.8%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 20] accuracy is 77.2%
+Progress: 11/20 features selected.
+
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 1] accuracy is 75.7%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 3] accuracy is 75.8%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 7] accuracy is 73.0%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 10] accuracy is 74.4%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 13] accuracy is 74.5%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 16] accuracy is 75.5%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 17] accuracy is 75.1%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 18] accuracy is 75.3%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20] accuracy is 75.9%
+Progress: 12/20 features selected.
+
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 1] accuracy is 74.7%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3] accuracy is 75.8%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 7] accuracy is 73.8%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 10] accuracy is 74.9%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 13] accuracy is 73.7%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 16] accuracy is 74.5%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 17] accuracy is 74.0%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 18] accuracy is 75.3%
+Progress: 13/20 features selected.
+
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3, 1] accuracy is 75.2%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3, 7] accuracy is 74.2%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3, 10] accuracy is 74.3%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3, 13] accuracy is 74.2%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3, 16] accuracy is 74.9%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3, 17] accuracy is 74.2%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3, 18] accuracy is 74.8%
+Progress: 14/20 features selected.
+
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3, 1, 7] accuracy is 73.6%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3, 1, 10] accuracy is 73.8%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3, 1, 13] accuracy is 73.7%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3, 1, 16] accuracy is 72.1%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3, 1, 17] accuracy is 73.4%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3, 1, 18] accuracy is 72.5%
+Progress: 15/20 features selected.
+
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3, 1, 10, 7] accuracy is 73.2%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3, 1, 10, 13] accuracy is 72.0%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3, 1, 10, 16] accuracy is 71.9%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3, 1, 10, 17] accuracy is 71.4%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3, 1, 10, 18] accuracy is 72.6%
+Progress: 16/20 features selected.
+
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3, 1, 10, 7, 13] accuracy is 71.6%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3, 1, 10, 7, 16] accuracy is 70.3%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3, 1, 10, 7, 17] accuracy is 71.0%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3, 1, 10, 7, 18] accuracy is 71.4%
+Progress: 17/20 features selected.
+
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3, 1, 10, 7, 13, 16] accuracy is 70.5%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3, 1, 10, 7, 13, 17] accuracy is 71.0%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3, 1, 10, 7, 13, 18] accuracy is 70.9%
+Progress: 18/20 features selected.
+
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3, 1, 10, 7, 13, 17, 16] accuracy is 69.0%
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3, 1, 10, 7, 13, 17, 18] accuracy is 70.7%
+Progress: 19/20 features selected.
+
+Using feature(s) [15, 9, 12, 2, 5, 4, 8, 19, 6, 14, 11, 20, 3, 1, 10, 7, 13, 17, 18, 16] accuracy is 70.1%
+Progress: 20/20 features selected.
+
+The best feature subset is [15, 9], which has an accuracy of 96.5%
+The best three-feature subset is [15, 9, 12], which has an accuracy of 94.7%
+
+Elapsed time: 2.9142799377441406 seconds
+
+Welcome to Bertie Woosters Feature Selection Algorithm.
+Please select one : 1 - Synthetic Dataset, 2 - Real-World Dataset
+1
+Type in the name of the file to test: /Users/anirudhtulasi/Desktop/AIP2/data_sets/CS170_large_Data__2.txt
+This dataset has 20 features (not including the class attribute), with 2000 instances.
+Please select the search algorithm: 1 - Forward Selection, 2 - Backward Elimination, 3 - Optimized Forward Selection, 4 - Optimized Backward Elimination
+4
+Starting Optimized Backward Elimination...
+Running nearest neighbor with all 20 features, using "leaving-one-out" evaluation, I get accuracy of 70.1%
+
+Using feature(s) [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 70.7%
+Using feature(s) [1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 68.6%
+Using feature(s) [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 71.6%
+Using feature(s) [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 70.7%
+Using feature(s) [1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 71.0%
+Using feature(s) [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 71.0%
+Using feature(s) [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 70.7%
+Using feature(s) [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 70.4%
+Using feature(s) [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 68.0%
+Using feature(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 70.0%
+Using feature(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 69.2%
+Using feature(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 69.7%
+Using feature(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20] accuracy is 69.5%
+Using feature(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20] accuracy is 70.8%
+Using feature(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20] accuracy is 67.0%
+Using feature(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20] accuracy is 70.7%
+Using feature(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20] accuracy is 69.7%
+Using feature(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20] accuracy is 69.0%
+Using feature(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20] accuracy is 70.8%
+Using feature(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19] accuracy is 68.8%
+Progress: feature size is : 19
+
+Feature set [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] was best, accuracy is 71.6%
+Using feature(s) [2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 71.8%
+Using feature(s) [1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 70.2%
+Using feature(s) [1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 71.9%
+Using feature(s) [1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 71.7%
+Using feature(s) [1, 2, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 71.6%
+Using feature(s) [1, 2, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 70.9%
+Using feature(s) [1, 2, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 71.0%
+Using feature(s) [1, 2, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 70.3%
+Using feature(s) [1, 2, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 69.8%
+Using feature(s) [1, 2, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 71.9%
+Using feature(s) [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 71.8%
+Using feature(s) [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20] accuracy is 70.9%
+Using feature(s) [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20] accuracy is 71.4%
+Using feature(s) [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20] accuracy is 67.7%
+Using feature(s) [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20] accuracy is 71.5%
+Using feature(s) [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20] accuracy is 70.5%
+Using feature(s) [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20] accuracy is 69.7%
+Using feature(s) [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20] accuracy is 71.8%
+Using feature(s) [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19] accuracy is 71.9%
+Progress: feature size is : 18
+
+Feature set [1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] was best, accuracy is 71.9%
+Using feature(s) [2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 70.5%
+Using feature(s) [1, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 71.2%
+Using feature(s) [1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 72.7%
+Using feature(s) [1, 2, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 71.9%
+Using feature(s) [1, 2, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 72.0%
+Using feature(s) [1, 2, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 71.1%
+Using feature(s) [1, 2, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 70.3%
+Using feature(s) [1, 2, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 70.8%
+Using feature(s) [1, 2, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 71.2%
+Using feature(s) [1, 2, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 72.5%
+Using feature(s) [1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20] accuracy is 71.4%
+Using feature(s) [1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20] accuracy is 72.0%
+Using feature(s) [1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20] accuracy is 68.9%
+Using feature(s) [1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20] accuracy is 71.2%
+Using feature(s) [1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20] accuracy is 71.4%
+Using feature(s) [1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20] accuracy is 70.8%
+Using feature(s) [1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20] accuracy is 72.2%
+Using feature(s) [1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19] accuracy is 71.4%
+Progress: feature size is : 17
+
+Feature set [1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] was best, accuracy is 72.7%
+Using feature(s) [2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 72.1%
+Using feature(s) [1, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 71.3%
+Using feature(s) [1, 2, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 72.2%
+Using feature(s) [1, 2, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 72.4%
+Using feature(s) [1, 2, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 72.7%
+Using feature(s) [1, 2, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 70.5%
+Using feature(s) [1, 2, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 71.8%
+Using feature(s) [1, 2, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 71.4%
+Using feature(s) [1, 2, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20] accuracy is 73.1%
+Using feature(s) [1, 2, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20] accuracy is 72.2%
+Using feature(s) [1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20] accuracy is 72.2%
+Using feature(s) [1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20] accuracy is 68.4%
+Using feature(s) [1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20] accuracy is 72.4%
+Using feature(s) [1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20] accuracy is 71.8%
+Using feature(s) [1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20] accuracy is 70.9%
+Using feature(s) [1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20] accuracy is 73.6%
+Using feature(s) [1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19] accuracy is 72.2%
+Progress: feature size is : 16
+
+Feature set [1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20] was best, accuracy is 73.6%
+Using feature(s) [2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20] accuracy is 73.9%
+Using feature(s) [1, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20] accuracy is 73.8%
+Using feature(s) [1, 2, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20] accuracy is 73.2%
+Using feature(s) [1, 2, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20] accuracy is 72.5%
+Using feature(s) [1, 2, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20] accuracy is 73.2%
+Using feature(s) [1, 2, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20] accuracy is 71.7%
+Using feature(s) [1, 2, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 20] accuracy is 73.3%
+Using feature(s) [1, 2, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 20] accuracy is 71.3%
+Using feature(s) [1, 2, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 20] accuracy is 73.2%
+Using feature(s) [1, 2, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 20] accuracy is 73.8%
+Using feature(s) [1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 20] accuracy is 73.8%
+Using feature(s) [1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 20] accuracy is 67.8%
+Using feature(s) [1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 20] accuracy is 72.7%
+Using feature(s) [1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 20] accuracy is 73.6%
+Using feature(s) [1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 20] accuracy is 71.9%
+Using feature(s) [1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18] accuracy is 72.9%
+Progress: feature size is : 15
+
+Feature set [2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20] was best, accuracy is 73.9%
+Using feature(s) [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20] accuracy is 75.0%
+Using feature(s) [2, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20] accuracy is 74.3%
+Using feature(s) [2, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20] accuracy is 74.5%
+Using feature(s) [2, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20] accuracy is 74.4%
+Using feature(s) [2, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20] accuracy is 72.2%
+Using feature(s) [2, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 20] accuracy is 74.2%
+Using feature(s) [2, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 20] accuracy is 74.2%
+Using feature(s) [2, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 20] accuracy is 74.4%
+Using feature(s) [2, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 20] accuracy is 74.9%
+Using feature(s) [2, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 20] accuracy is 75.1%
+Using feature(s) [2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 20] accuracy is 68.1%
+Using feature(s) [2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 20] accuracy is 74.9%
+Using feature(s) [2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 20] accuracy is 73.3%
+Using feature(s) [2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 20] accuracy is 73.0%
+Using feature(s) [2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18] accuracy is 74.9%
+Progress: feature size is : 14
+
+Feature set [2, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 20] was best, accuracy is 75.1%
+Using feature(s) [6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 20] accuracy is 76.1%
+Using feature(s) [2, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 20] accuracy is 75.0%
+Using feature(s) [2, 6, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 20] accuracy is 75.5%
+Using feature(s) [2, 6, 7, 9, 10, 11, 12, 13, 15, 16, 17, 18, 20] accuracy is 75.0%
+Using feature(s) [2, 6, 7, 8, 10, 11, 12, 13, 15, 16, 17, 18, 20] accuracy is 73.8%
+Using feature(s) [2, 6, 7, 8, 9, 11, 12, 13, 15, 16, 17, 18, 20] accuracy is 74.9%
+Using feature(s) [2, 6, 7, 8, 9, 10, 12, 13, 15, 16, 17, 18, 20] accuracy is 74.2%
+Using feature(s) [2, 6, 7, 8, 9, 10, 11, 13, 15, 16, 17, 18, 20] accuracy is 74.8%
+Using feature(s) [2, 6, 7, 8, 9, 10, 11, 12, 15, 16, 17, 18, 20] accuracy is 75.5%
+Using feature(s) [2, 6, 7, 8, 9, 10, 11, 12, 13, 16, 17, 18, 20] accuracy is 70.2%
+Using feature(s) [2, 6, 7, 8, 9, 10, 11, 12, 13, 15, 17, 18, 20] accuracy is 75.2%
+Using feature(s) [2, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 18, 20] accuracy is 74.0%
+Using feature(s) [2, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 20] accuracy is 73.0%
+Using feature(s) [2, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18] accuracy is 75.5%
+Progress: feature size is : 13
+
+Feature set [6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 20] was best, accuracy is 76.1%
+Using feature(s) [7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 20] accuracy is 76.6%
+Using feature(s) [6, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 20] accuracy is 76.5%
+Using feature(s) [6, 7, 9, 10, 11, 12, 13, 15, 16, 17, 18, 20] accuracy is 76.0%
+Using feature(s) [6, 7, 8, 10, 11, 12, 13, 15, 16, 17, 18, 20] accuracy is 74.2%
+Using feature(s) [6, 7, 8, 9, 11, 12, 13, 15, 16, 17, 18, 20] accuracy is 76.4%
+Using feature(s) [6, 7, 8, 9, 10, 12, 13, 15, 16, 17, 18, 20] accuracy is 75.3%
+Using feature(s) [6, 7, 8, 9, 10, 11, 13, 15, 16, 17, 18, 20] accuracy is 76.5%
+Using feature(s) [6, 7, 8, 9, 10, 11, 12, 15, 16, 17, 18, 20] accuracy is 76.4%
+Using feature(s) [6, 7, 8, 9, 10, 11, 12, 13, 16, 17, 18, 20] accuracy is 69.8%
+Using feature(s) [6, 7, 8, 9, 10, 11, 12, 13, 15, 17, 18, 20] accuracy is 75.0%
+Using feature(s) [6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 18, 20] accuracy is 74.9%
+Using feature(s) [6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 20] accuracy is 75.6%
+Using feature(s) [6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18] accuracy is 75.8%
+Progress: feature size is : 12
+
+Feature set [7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 20] was best, accuracy is 76.6%
+Using feature(s) [8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 20] accuracy is 77.9%
+Using feature(s) [7, 9, 10, 11, 12, 13, 15, 16, 17, 18, 20] accuracy is 77.8%
+Using feature(s) [7, 8, 10, 11, 12, 13, 15, 16, 17, 18, 20] accuracy is 73.0%
+Using feature(s) [7, 8, 9, 11, 12, 13, 15, 16, 17, 18, 20] accuracy is 76.3%
+Using feature(s) [7, 8, 9, 10, 12, 13, 15, 16, 17, 18, 20] accuracy is 76.1%
+Using feature(s) [7, 8, 9, 10, 11, 13, 15, 16, 17, 18, 20] accuracy is 77.3%
+Using feature(s) [7, 8, 9, 10, 11, 12, 15, 16, 17, 18, 20] accuracy is 77.7%
+Using feature(s) [7, 8, 9, 10, 11, 12, 13, 16, 17, 18, 20] accuracy is 69.1%
+Using feature(s) [7, 8, 9, 10, 11, 12, 13, 15, 17, 18, 20] accuracy is 75.6%
+Using feature(s) [7, 8, 9, 10, 11, 12, 13, 15, 16, 18, 20] accuracy is 76.2%
+Using feature(s) [7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 20] accuracy is 76.0%
+Using feature(s) [7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18] accuracy is 76.1%
+Progress: feature size is : 11
+
+Feature set [8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 20] was best, accuracy is 77.9%
+Using feature(s) [9, 10, 11, 12, 13, 15, 16, 17, 18, 20] accuracy is 78.2%
+Using feature(s) [8, 10, 11, 12, 13, 15, 16, 17, 18, 20] accuracy is 75.0%
+Using feature(s) [8, 9, 11, 12, 13, 15, 16, 17, 18, 20] accuracy is 78.2%
+Using feature(s) [8, 9, 10, 12, 13, 15, 16, 17, 18, 20] accuracy is 78.7%
+Using feature(s) [8, 9, 10, 11, 13, 15, 16, 17, 18, 20] accuracy is 77.8%
+Using feature(s) [8, 9, 10, 11, 12, 15, 16, 17, 18, 20] accuracy is 79.2%
+Using feature(s) [8, 9, 10, 11, 12, 13, 16, 17, 18, 20] accuracy is 70.2%
+Using feature(s) [8, 9, 10, 11, 12, 13, 15, 17, 18, 20] accuracy is 78.3%
+Using feature(s) [8, 9, 10, 11, 12, 13, 15, 16, 18, 20] accuracy is 78.1%
+Using feature(s) [8, 9, 10, 11, 12, 13, 15, 16, 17, 20] accuracy is 76.4%
+Using feature(s) [8, 9, 10, 11, 12, 13, 15, 16, 17, 18] accuracy is 78.8%
+Progress: feature size is : 10
+
+Feature set [8, 9, 10, 11, 12, 15, 16, 17, 18, 20] was best, accuracy is 79.2%
+Using feature(s) [9, 10, 11, 12, 15, 16, 17, 18, 20] accuracy is 79.2%
+Using feature(s) [8, 10, 11, 12, 15, 16, 17, 18, 20] accuracy is 75.6%
+Using feature(s) [8, 9, 11, 12, 15, 16, 17, 18, 20] accuracy is 79.3%
+Using feature(s) [8, 9, 10, 12, 15, 16, 17, 18, 20] accuracy is 79.1%
+Using feature(s) [8, 9, 10, 11, 15, 16, 17, 18, 20] accuracy is 80.2%
+Using feature(s) [8, 9, 10, 11, 12, 16, 17, 18, 20] accuracy is 71.0%
+Using feature(s) [8, 9, 10, 11, 12, 15, 17, 18, 20] accuracy is 79.5%
+Using feature(s) [8, 9, 10, 11, 12, 15, 16, 18, 20] accuracy is 79.7%
+Using feature(s) [8, 9, 10, 11, 12, 15, 16, 17, 20] accuracy is 79.1%
+Using feature(s) [8, 9, 10, 11, 12, 15, 16, 17, 18] accuracy is 79.2%
+Progress: feature size is : 9
+
+Feature set [8, 9, 10, 11, 15, 16, 17, 18, 20] was best, accuracy is 80.2%
+Using feature(s) [9, 10, 11, 15, 16, 17, 18, 20] accuracy is 82.0%
+Using feature(s) [8, 10, 11, 15, 16, 17, 18, 20] accuracy is 75.0%
+Using feature(s) [8, 9, 11, 15, 16, 17, 18, 20] accuracy is 80.5%
+Using feature(s) [8, 9, 10, 15, 16, 17, 18, 20] accuracy is 80.9%
+Using feature(s) [8, 9, 10, 11, 16, 17, 18, 20] accuracy is 71.4%
+Using feature(s) [8, 9, 10, 11, 15, 17, 18, 20] accuracy is 80.3%
+Using feature(s) [8, 9, 10, 11, 15, 16, 18, 20] accuracy is 80.8%
+Using feature(s) [8, 9, 10, 11, 15, 16, 17, 20] accuracy is 80.9%
+Using feature(s) [8, 9, 10, 11, 15, 16, 17, 18] accuracy is 81.5%
+Progress: feature size is : 8
+
+Feature set [9, 10, 11, 15, 16, 17, 18, 20] was best, accuracy is 82.0%
+Using feature(s) [10, 11, 15, 16, 17, 18, 20] accuracy is 76.5%
+Using feature(s) [9, 11, 15, 16, 17, 18, 20] accuracy is 82.5%
+Using feature(s) [9, 10, 15, 16, 17, 18, 20] accuracy is 82.6%
+Using feature(s) [9, 10, 11, 16, 17, 18, 20] accuracy is 71.2%
+Using feature(s) [9, 10, 11, 15, 17, 18, 20] accuracy is 82.3%
+Using feature(s) [9, 10, 11, 15, 16, 18, 20] accuracy is 82.2%
+Using feature(s) [9, 10, 11, 15, 16, 17, 20] accuracy is 83.3%
+Using feature(s) [9, 10, 11, 15, 16, 17, 18] accuracy is 84.8%
+Progress: feature size is : 7
+
+Feature set [9, 10, 11, 15, 16, 17, 18] was best, accuracy is 84.8%
+Using feature(s) [10, 11, 15, 16, 17, 18] accuracy is 79.1%
+Using feature(s) [9, 11, 15, 16, 17, 18] accuracy is 84.6%
+Using feature(s) [9, 10, 15, 16, 17, 18] accuracy is 86.2%
+Using feature(s) [9, 10, 11, 16, 17, 18] accuracy is 71.7%
+Using feature(s) [9, 10, 11, 15, 17, 18] accuracy is 84.8%
+Using feature(s) [9, 10, 11, 15, 16, 18] accuracy is 84.2%
+Using feature(s) [9, 10, 11, 15, 16, 17] accuracy is 85.6%
+Progress: feature size is : 6
+
+Feature set [9, 10, 15, 16, 17, 18] was best, accuracy is 86.2%
+Using feature(s) [10, 15, 16, 17, 18] accuracy is 79.7%
+Using feature(s) [9, 15, 16, 17, 18] accuracy is 87.2%
+Using feature(s) [9, 10, 16, 17, 18] accuracy is 72.4%
+Using feature(s) [9, 10, 15, 17, 18] accuracy is 87.5%
+Using feature(s) [9, 10, 15, 16, 18] accuracy is 88.0%
+Using feature(s) [9, 10, 15, 16, 17] accuracy is 87.9%
+Progress: feature size is : 5
+
+Feature set [9, 10, 15, 16, 18] was best, accuracy is 88.0%
+Using feature(s) [10, 15, 16, 18] accuracy is 81.8%
+Using feature(s) [9, 15, 16, 18] accuracy is 90.1%
+Using feature(s) [9, 10, 16, 18] accuracy is 72.6%
+Using feature(s) [9, 10, 15, 18] accuracy is 91.2%
+Using feature(s) [9, 10, 15, 16] accuracy is 90.6%
+Progress: feature size is : 4
+
+Feature set [9, 10, 15, 18] was best, accuracy is 91.2%
+Using feature(s) [10, 15, 18] accuracy is 82.0%
+Using feature(s) [9, 15, 18] accuracy is 94.5%
+Using feature(s) [9, 10, 18] accuracy is 72.0%
+Using feature(s) [9, 10, 15] accuracy is 93.5%
+Progress: feature size is : 3
+
+Feature set [9, 15, 18] was best, accuracy is 94.5%
+Using feature(s) [15, 18] accuracy is 84.0%
+Using feature(s) [9, 18] accuracy is 73.7%
+Using feature(s) [9, 15] accuracy is 96.5%
+Progress: feature size is : 2
+
+Feature set [9, 15] was best, accuracy is 96.5%
+Using feature(s) [15] accuracy is 84.6%
+Using feature(s) [9] accuracy is 70.8%
+Progress: feature size is : 1
+
+The best feature subset is [9, 15], which has an accuracy of 96.5%
+The best three-feature subset is [9, 15, 18], which has an accuracy of 94.5%
+
+Elapsed time: 3.295012950897217 seconds
